@@ -1,0 +1,19 @@
+﻿@using ApplicationFormationAspNetRazoe.Core.Data.Models
+@model Paragraphe
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+    <h1>@Model.Titre</h1>
+    <p>@Model.Description</p>
+    <p>Question : @Model.Question.Title</p>
+    @foreach(var réponse in Model.Question.Reponse){
+        <h1>@réponse.Titre</h1>
+        <p>@réponse.Description</p>
+    }
+
+
+

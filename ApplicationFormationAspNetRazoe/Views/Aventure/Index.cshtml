@@ -1,0 +1,14 @@
+﻿@using ApplicationFormationAspNetRazoe.Core.Data.Models
+@model List<Aventure>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+@foreach (var aventure in Model)
+{
+    <h1>@aventure.Titre</h1>
+}
+

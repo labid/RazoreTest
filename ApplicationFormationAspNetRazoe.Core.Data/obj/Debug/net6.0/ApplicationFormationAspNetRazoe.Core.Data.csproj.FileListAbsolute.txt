@@ -1,0 +1,12 @@
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\bin\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.deps.json
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\bin\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.dll
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\bin\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.pdb
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.csproj.AssemblyReference.cache
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.AssemblyInfoInputs.cache
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.AssemblyInfo.cs
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.csproj.CoreCompileInputs.cache
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.dll
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\refint\ApplicationFormationAspNetRazoe.Core.Data.dll
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ApplicationFormationAspNetRazoe.Core.Data.pdb
+D:\Entrainement\ApplicationFormationAspNetRazoe\ApplicationFormationAspNetRazoe.Core.Data\obj\Debug\net6.0\ref\ApplicationFormationAspNetRazoe.Core.Data.dll
