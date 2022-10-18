@@ -24,4 +24,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish -p:PublishProfile=Properties\PublishProfiles\IISProfile.pubxml
+      run: dotnet publish -p:PublishProfile=ApplicationFormationAspNetRazoe.BackOffice.Web.UI\Properties\PublishProfiles\IISProfile.pubxml
