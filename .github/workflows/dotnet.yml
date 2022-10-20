@@ -27,5 +27,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: config
+      run: echo "::add-path::C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin"
     - name: Publish
-      run: warrenbuckley/Setup-MSBuild msbuild ApplicationFormationAspNetRazoe.sln /p:DeployOnBuild=true /p:PublishProfile=IISProfile.pubxml
+      run: msbuild ApplicationFormationAspNetRazoe.sln /p:DeployOnBuild=true /p:PublishProfile=IISProfile.pubxml
