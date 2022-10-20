@@ -27,7 +27,9 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: config
-      run: echo "::`add-path::C:\Program Files (x86)\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin`::"
+    - name: config1
+      run: echo "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin" >> $GITHUB_PATH      
+    - name: config2
+      run: echo "C:\Program Files (x86)\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin" >> $GITHUB_PATH
     - name: Publish
       run: msbuild ApplicationFormationAspNetRazoe.sln /p:DeployOnBuild=true /p:PublishProfile=IISProfile.pubxml
