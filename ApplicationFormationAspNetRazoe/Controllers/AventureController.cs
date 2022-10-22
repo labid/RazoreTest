@@ -14,21 +14,7 @@ namespace ApplicationFormationAspNetRazoe.Controllers
 
         public IActionResult Index()
         {
-            List <Aventure> aventures = new List<Aventure>();
-
-            aventures.Add(new Aventure()
-            {
-                Id = 1,
-                Titre = "Premiere aventure"
-            });
-
-            aventures.Add(new Aventure()
-            {
-                Id = 2,
-                Titre = "2eme aventure"
-            });
-
-            return View(aventures);
+            return View();
         }
 
     }
