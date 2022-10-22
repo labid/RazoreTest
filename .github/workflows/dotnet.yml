@@ -16,11 +16,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        packageType: 'Install .NET 6 SDK'
-        version: '6.0.x'
-        includePreviewVersions: true 
-    - name: Restore dependencies
-      run: dotnet restore
+          dotnet-version: 6.0.x
     - name: Build
       run: dotnet build --no-restore
     - name: Test
