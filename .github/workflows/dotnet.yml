@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-    #  run: msbuild ApplicationFormationAspNetRazoe.sln /p:DeployOnBuild=true /p:PublishProfile=IISProfile.pubxml
+    # run: msbuild ApplicationFormationAspNetRazoe.sln /p:DeployOnBuild=true /p:PublishProfile=IISProfile.pubxml
