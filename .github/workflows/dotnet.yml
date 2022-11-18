@@ -19,7 +19,9 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
+    - name: directory      
+      run : cd ApplicationFormationAspNetRazoe 
     - name: Build      
-      run : dotnet build --no-restore
+      run : dotnet build --no-restore       
     - name: Test
       run: dotnet test --no-build --verbosity normal
